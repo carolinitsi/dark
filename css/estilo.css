@@ -1,0 +1,119 @@
+@font-face {
+    font-family: athena;
+    src: url('fontes/Athena-Regular\ \(PERSONAL\ USE\ ONLY\).ttf');
+}
+@font-face {
+    font-family: future;
+    src: url('fontes/FUTRFW.TTF');
+}
+body{
+    background:#cbcbcc;
+}
+header{
+    background-image: url("midias/global.png");
+    height: 500px;
+}
+section{
+    width: 50%;
+    margin: 10%
+    
+}
+h1{
+    font-family: future;
+}
+h2{
+    font-family: future;
+    background-color: rgba(24, 34, 4, 0.637);
+}
+h3{
+    font-family: future;
+}
+h4{
+    font-family: future;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+aside{
+    float: right;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;    
+}
+a{
+    text-decoration: none;
+    font-family: athena;
+    color: rgb(24, 34, 4);
+}
+a:hover{
+    color: rgb(88, 92, 81);
+
+}
+.elenco img{
+    width: 10%;
+    height: 10%;
+    opacity: 30%;
+    padding-top: 20%;
+}
+.elenco img:hover{
+    opacity: 100%;
+    width: 30%;
+    padding-top: 0%;
+}
+.escondido{
+    display: none;
+}
+.mostra-detalhe{
+    width: 80%;
+    padding: 5%;
+    color: rgb(68, 68, 67);
+    font-family: athena;
+}
+p{
+    font-family: athena;
+    color: rgb(68, 68, 67);
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+/*FORMULÁRIO*/
+.botao{
+    width: 50px;
+}
+input{
+    border-radius: 10%;
+    border:#bcbcbd ;
+    width: 40%;
+
+}
+ 
+@media only screen and (max-device-width: 600px) {
+    body{
+        width: 100%;
+        
+
+    }
+    header{
+        background-image: url("midias/global.png");
+        background-size: cover;
+        height: 200px;
+        top:0px;
+        left: 0px;
+    }
+    section{
+        width: 80%;
+    }
+    video{
+        width: 100%;
+        height: auto;
+    }
+    aside{
+        float:unset;
+        width: 80%;
+    }
+    aside p{
+        width: 80%;
+    }
+}
+ 
